@@ -1,0 +1,17 @@
+{
+  "short_name": "Finance Tracker",
+  "name": "Finance Tracker App",
+  "icons": [
+    {
+      "src": "/images/logo2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#4F46E5",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "scope": "/"
+}
