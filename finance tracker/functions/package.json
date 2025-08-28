@@ -1,5 +1,8 @@
 {
+  "$schema": "https://json.schemastore.org/package.json",
   "name": "functions",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Functions for Finance Tracker App",
   "scripts": {
     "lint": "eslint --ext .js,.ts .",
     "build": "tsc",
@@ -11,13 +14,16 @@
     "logs": "firebase functions:log"
   },
   "engines": {
-    "node": "22"
+    "node": "20"
   },
   "main": "lib/index.js",
   "dependencies": {
     "firebase-admin": "^12.6.0",
     "firebase-functions": "^4.9.0",
     "nodemailer": "^7.0.5"
+  },
+   "parserOptions": {
+    "project": "./path/to/tsconfig.json"
   },
   "devDependencies": {
     "@types/nodemailer": "^7.0.1",
