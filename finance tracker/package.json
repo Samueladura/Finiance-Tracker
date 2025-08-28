@@ -22,6 +22,9 @@
     "firebase-functions": "^4.9.0",
     "nodemailer": "^7.0.5"
   },
+   "parserOptions": {
+    "project": "./path/to/tsconfig.json"
+  },
   "devDependencies": {
     "@types/nodemailer": "^7.0.1",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
